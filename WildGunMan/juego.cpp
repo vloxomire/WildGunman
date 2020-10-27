@@ -3,8 +3,19 @@
 Juego::Juego()
 {
     std::cout<<"Construyendo...\n";
-}
 
+    if(fondoDePantalla.loadFromFile("background-hud.png"))
+        {
+                std::cout<<"Cargado el fondo...\n";
+
+        }
+    else
+        {
+            std::cout<<"No se puedo cargar el fondo...\n";
+        }
+        sf::Sprite fondo(fondoDePantalla);
+    Init();
+}
 Juego::~Juego()
 {
     std::cout<<"Destruyendo...\n";
@@ -12,9 +23,11 @@ Juego::~Juego()
 
 void Juego::Play()
 {
-    sf::RenderWindow ventana(sf::VideoMode(200,200,32),"Wild Gunman");
+    sf::RenderWindow ventana(sf::VideoMode(640,480,32),"Wild Gunman");
+
     while(ventana.isOpen())
     {
+        sf::Clock relog;
         sf::Event evento;
         while(ventana.pollEvent(evento))
         {
@@ -23,8 +36,10 @@ void Juego::Play()
                 ventana.close();
             }
         }
-        ventana.clear();
-        Update();
+        ventana.clear(sf::Color::Black);
+        Update(relog);
+        //Dibuja desde aca
+        ventana.draw(fondo);
         Draw(ventana);
 
     }
@@ -32,10 +47,17 @@ void Juego::Play()
 
 void Juego::Draw(sf::RenderWindow &ventana)
 {
+
     ventana.display();
 }
 
-void Juego::Update()
+void Juego::Update(sf::Clock &relog)
 {
+
+}
+
+void Juego::Init()
+{
+    std::cout<<"Entro al Init,cargando contenido...\n";
 
 }

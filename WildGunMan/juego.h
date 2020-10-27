@@ -5,6 +5,7 @@
 class Juego
 {
 public:
+    sf::Sprite fondo;
     Juego();
     ~Juego();
     void Play();
@@ -12,8 +13,11 @@ protected:
 
 private:
     sf::RenderWindow ventana;
+sf::Texture fondoDePantalla;
+
+    void Init();
     void Draw(sf::RenderWindow &ventana);
-    void Update();
+    void Update(sf::Clock &relog);
 };
 
 #endif // JUEGO_H
