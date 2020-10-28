@@ -47,6 +47,10 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="../../../../Users/vloxo/OneDrive/Documentos/0-ImageCampus/Int-Programacion Avanzada C++/Ejercicios/assets/textures/background-hud.png" />
+		<Unit filename="LaEntidad.cpp" />
+		<Unit filename="LaEntidad.h" />
+		<Unit filename="Mira.cpp" />
+		<Unit filename="Mira.h" />
 		<Unit filename="juego.cpp" />
 		<Unit filename="juego.h" />
 		<Unit filename="main.cpp" />
