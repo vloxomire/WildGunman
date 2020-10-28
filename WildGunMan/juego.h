@@ -5,7 +5,7 @@
 class Juego
 {
 public:
-    sf::Sprite fondo;
+    sf::Sprite *fondo;
     Juego();
     ~Juego();
     void Play();

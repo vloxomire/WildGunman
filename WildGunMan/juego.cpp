@@ -13,7 +13,8 @@ Juego::Juego()
         {
             std::cout<<"No se puedo cargar el fondo...\n";
         }
-        sf::Sprite fondo(fondoDePantalla);
+       fondo= new sf::Sprite(fondoDePantalla);
+       fondo->scale(0.8f,0.8f);
     Init();
 }
 Juego::~Juego()
@@ -23,7 +24,7 @@ Juego::~Juego()
 
 void Juego::Play()
 {
-    sf::RenderWindow ventana(sf::VideoMode(640,480,32),"Wild Gunman");
+    sf::RenderWindow ventana(sf::VideoMode(890,600,32),"Wild Gunman");
 
     while(ventana.isOpen())
     {
@@ -39,7 +40,7 @@ void Juego::Play()
         ventana.clear(sf::Color::Black);
         Update(relog);
         //Dibuja desde aca
-        ventana.draw(fondo);
+        ventana.draw(*fondo);
         Draw(ventana);
 
     }

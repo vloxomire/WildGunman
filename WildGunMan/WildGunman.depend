@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1603759259 source:c:\0-cursos\c++\wildgunman\wildgunman\juego.cpp
+1603759458 source:c:\0-cursos\c++\wildgunman\wildgunman\juego.cpp
 	"juego.h"
 	<iostream>
 
-1603759234 c:\0-cursos\c++\wildgunman\wildgunman\juego.h
+1603843766 c:\0-cursos\c++\wildgunman\wildgunman\juego.h
 	<SFML/Graphics.hpp>
 
 1603752138 source:c:\0-cursos\c++\wildgunman\wildgunman\main.cpp
