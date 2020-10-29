@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1603881513 source:c:\0-cursos\c++\wildgunman\wildgunman\juego.cpp
+1603845487 source:c:\0-cursos\c++\wildgunman\wildgunman\juego.cpp
 	"juego.h"
 	<iostream>
 
-1603881513 c:\0-cursos\c++\wildgunman\wildgunman\juego.h
+1603843766 c:\0-cursos\c++\wildgunman\wildgunman\juego.h
 	<SFML/Graphics.hpp>
 
-1603738266 source:c:\0-cursos\c++\wildgunman\wildgunman\main.cpp
+1603752138 source:c:\0-cursos\c++\wildgunman\wildgunman\main.cpp
 	"Juego.h"
 	<iostream>
 
@@ -419,9 +419,16 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
-1603911494 source:c:\0-cursos\c++\wildgunman\wildgunman\laentidad.cpp
+1603930702 source:c:\0-cursos\c++\wildgunman\wildgunman\laentidad.cpp
 	"LaEntidad.h"
+	<iostream>
 
-1603911473 c:\0-cursos\c++\wildgunman\wildgunman\laentidad.h
+1603930717 c:\0-cursos\c++\wildgunman\wildgunman\laentidad.h
 	<SFML/Graphics.hpp>
+
+1603930174 source:c:\0-cursos\c++\wildgunman\wildgunman\mira.cpp
+	"Mira.h"
+
+1603930174 c:\0-cursos\c++\wildgunman\wildgunman\mira.h
+	"LaEntidad.h"
 

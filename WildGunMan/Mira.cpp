@@ -1,5 +1,5 @@
 #include"Mira.h"
-Mira(sf::Texture *textura,sf::Sprite *sprite):LaEntidad(textura,sprite)
+Mira(float x,float y):LaEntidad{x,y}
 {
 
 
@@ -8,3 +8,4 @@ Mira(sf::Texture *textura,sf::Sprite *sprite):LaEntidad(textura,sprite)
 {
 
 }
+

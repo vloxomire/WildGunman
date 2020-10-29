@@ -1,16 +1,15 @@
 #include<SFML/Graphics.hpp>
 class LaEntidad
 {
-
-    protected:
-        sf::Texture *textura;
-        sf::Sprite *sprite;
-        int mayor;
-
-    public:
-        LaEntidad(sf::Texture&textura,sf::Sprite&sprite);
-        virtual ~LaEntidad();
-
     private:
 
+    protected:
+        sf::Texture *textura{0};
+        sf::Sprite *sprite{0};
+        int mayor;
+        float xVec,yVec;
+
+    public:
+        LaEntidad(float,float);
+        virtual ~LaEntidad();
 };
