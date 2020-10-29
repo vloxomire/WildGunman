@@ -1,10 +1,10 @@
-#include"Mira.h"
-Mira(float x,float y):LaEntidad{x,y}
+#include"Diadema.h"
+Diadema::Diadema(float xVec,float yVec):LaEntidad(xVec,yVec)
 {
 
 
 }
-~Mira()
+Diadema::~Diadema()
 {
 
 }

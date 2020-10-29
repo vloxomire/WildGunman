@@ -1,10 +1,10 @@
 #include"LaEntidad.h"
 
-class Mira : public LaEntidad
+class Diadema : public LaEntidad
 {
     private:
     public:
-       Mira(float,float):LaEntidad();
-       ~Mira();
+       Diadema(float =0.0,float =0.0);
+       ~Diadema();
 
 };

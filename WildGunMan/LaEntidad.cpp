@@ -1,7 +1,7 @@
 #include"LaEntidad.h"
 #include<iostream>
 
-LaEntidad(float xVec=0,float yVec=0)
+LaEntidad::LaEntidad(float xVec=0,float yVec=0)
 {
         std::cout<<"Construyendo LaEntidad...\n";
     if(textura)
@@ -10,7 +10,7 @@ LaEntidad(float xVec=0,float yVec=0)
              std::cout<<"es nulo\n";
 }
 
-virtual~LaEntidad()
+LaEntidad::~LaEntidad()
 {
     std::cout<<"Destruyendo LaEntidad...\n";
 }
