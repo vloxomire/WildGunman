@@ -14,4 +14,7 @@ class LaEntidad
 // @note (Jin-Gitaxias#1#): Ver como poder usarlo, en la sub clase
         sf::Texture *textura{0};
         sf::Sprite *sprite{0};
+        void Draw(sf::RenderWindow&);
+        void Update(sf::Clock&);
+        void Prueba();
 };

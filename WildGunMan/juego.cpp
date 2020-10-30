@@ -15,6 +15,8 @@ Juego::Juego()
         }
        fondo= new sf::Sprite(fondoDePantalla);
        fondo->scale(0.8f,0.8f);
+
+       dia=new Diadema(100,100);
     Init();
 }
 Juego::~Juego()
@@ -41,14 +43,17 @@ void Juego::Play()
         Update(relog);
         //Dibuja desde aca
         ventana.draw(*fondo);
-        Draw(ventana);
+        //Draw(&ventana);
 
     }
 }
 
 void Juego::Draw(sf::RenderWindow &ventana)
-{
 
+
+// TODO (vloxo#1#): No puedo hacer correr el draw ...
+//
+   dia->Draw(&ventana);
     ventana.display();
 }
 

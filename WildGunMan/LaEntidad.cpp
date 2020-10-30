@@ -14,3 +14,17 @@ LaEntidad::~LaEntidad()
 {
     std::cout<<"Destruyendo LaEntidad...\n";
 }
+void LaEntidad::Draw(sf::RenderWindow &ventana)
+{
+ventana.draw(*sprite);
+}
+
+void LaEntidad::Update(sf::Clock &relog)
+{
+
+}
+
+void LaEntidad::LaEntidad()
+{
+    std::cout>>"Hola";
+}
