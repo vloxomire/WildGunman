@@ -50,9 +50,6 @@ void Juego::Play()
 
 void Juego::Draw(sf::RenderWindow &ventana)
 
-
-// TODO (vloxo#1#): No puedo hacer correr el draw ...
-//
    dia->Draw(&ventana);
     ventana.display();
 }

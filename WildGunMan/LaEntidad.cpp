@@ -24,7 +24,7 @@ void LaEntidad::Update(sf::Clock &relog)
 
 }
 
-void LaEntidad::LaEntidad()
+LaEntidad::LaEntidad()
 {
     std::cout>>"Hola";
 }
