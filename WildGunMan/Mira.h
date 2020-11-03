@@ -9,5 +9,5 @@ class Diadema : public LaEntidad
        ~Diadema();
        void SetSpeed();
        float GetSpeed();
-        void Draw();
+
 };

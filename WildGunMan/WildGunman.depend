@@ -3,11 +3,11 @@
 	"juego.h"
 	<iostream>
 
-1604021350 c:\0-cursos\c++\wildgunman\wildgunman\juego.h
+1604055193 c:\0-cursos\c++\wildgunman\wildgunman\juego.h
 	"Mira.h"
 	<SFML/Graphics.hpp>
 
-1603752138 source:c:\0-cursos\c++\wildgunman\wildgunman\main.cpp
+1603738266 source:c:\0-cursos\c++\wildgunman\wildgunman\main.cpp
 	"Juego.h"
 	<iostream>
 
@@ -420,17 +420,17 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
-1604016256 source:c:\0-cursos\c++\wildgunman\wildgunman\laentidad.cpp
+1604404687 source:c:\0-cursos\c++\wildgunman\wildgunman\laentidad.cpp
 	"LaEntidad.h"
 	<iostream>
 
-1604021525 c:\0-cursos\c++\wildgunman\wildgunman\laentidad.h
+1604055193 c:\0-cursos\c++\wildgunman\wildgunman\laentidad.h
 	<SFML/Graphics.hpp>
 
-1604017013 source:c:\0-cursos\c++\wildgunman\wildgunman\mira.cpp
+1604055193 source:c:\0-cursos\c++\wildgunman\wildgunman\mira.cpp
 	"Mira.h"
 	<iostream>
 
-1604017015 c:\0-cursos\c++\wildgunman\wildgunman\mira.h
+1604404824 c:\0-cursos\c++\wildgunman\wildgunman\mira.h
 	"LaEntidad.h"
 

@@ -17,10 +17,7 @@ Diadema::~Diadema()
 {
     std::cout<<"Destruyendo Diadema\n";
 }
-void Diadema::Draw()
-{
 
-}
 
 void Diadema::SetSpeed()
 {

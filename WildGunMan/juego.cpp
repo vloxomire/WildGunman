@@ -49,7 +49,9 @@ void Juego::Play()
 }
 
 void Juego::Draw(sf::RenderWindow &ventana)
+{
 
+// @fixme (Jin-Gitaxias#1#11/03/20): Problemas con la herencia no encuentra la clase sobrescrita
    dia->Draw(&ventana);
     ventana.display();
 }
