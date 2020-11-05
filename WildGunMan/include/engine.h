@@ -19,6 +19,7 @@ class Engine
 
         bool m_isRunning;
         sf::RenderWindow& m_renderWindow;
+        Camara* camaraMundo;
 };
 
 #endif // ENGINE_H
