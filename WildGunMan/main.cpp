@@ -1,8 +1,13 @@
-#include"Juego.h"
+#include"./engine.h"
+#include"./constants.h"
 #include<iostream>
 int main()
 {
-    Juego juego;
-    juego.Play();
+    Engine* engine=new Engine(Constants::Window::Width,
+                              Constants::Window::Height,
+                              Constants::Window::Title);
+    engine->run();
+
+    delete engine;
     return 0;
 };

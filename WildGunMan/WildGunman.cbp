@@ -51,11 +51,14 @@
 		<Unit filename="LaEntidad.h" />
 		<Unit filename="Mira.cpp" />
 		<Unit filename="Mira.h" />
+		<Unit filename="include/camara.h" />
+		<Unit filename="include/constants.h" />
 		<Unit filename="include/engine.h" />
-		<Unit filename="juego.cpp" />
-		<Unit filename="juego.h" />
+		<Unit filename="include/entity.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/camara.cpp" />
 		<Unit filename="src/engine.cpp" />
+		<Unit filename="src/entity.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

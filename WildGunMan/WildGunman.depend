@@ -7,8 +7,9 @@
 	"Mira.h"
 	<SFML/Graphics.hpp>
 
-1603738266 source:c:\0-cursos\c++\wildgunman\wildgunman\main.cpp
-	"Juego.h"
+1604599961 source:c:\0-cursos\c++\wildgunman\wildgunman\main.cpp
+	"./engine.h"
+	"./constants.h"
 	<iostream>
 
 1525812018 c:\libs\sfml-2.5.1\include\sfml\graphics.hpp
@@ -433,4 +434,17 @@
 
 1604404824 c:\0-cursos\c++\wildgunman\wildgunman\mira.h
 	"LaEntidad.h"
+
+1604588473 source:c:\0-cursos\c++\wildgunman\wildgunman\src\entity.cpp
+	"entity.h"
+
+1604588473 c:\0-cursos\c++\wildgunman\wildgunman\include\entity.h
+
+1604599928 c:\0-cursos\c++\wildgunman\wildgunman\include\engine.h
+	<SFML/Graphics.hpp>
+	<string>
+
+1604601391 c:\0-cursos\c++\wildgunman\wildgunman\include\constants.h
+	<SFML/System.hpp>
+	<string>
 

@@ -1,7 +1,8 @@
 #ifndef ENGINE_H
 #define ENGINE_H
+#include<SFML/Graphics.hpp>
 #include<string>
-
+class Camara;
 class Engine
 {
     public:
@@ -9,17 +10,19 @@ class Engine
         ~Engine();
 
         bool GetIsRunning();
+        void run();
 
     protected:
 
     private:
         void processEvents();
-        void update();
+        void cargarNivel(unsigned int num);
+        void update(sf::Time deltaTime);
         void render();
 
         bool m_isRunning;
         sf::RenderWindow& m_renderWindow;
-        Camara* camaraMundo;
+        Camara* m_camaraMundo;
 };
 
 #endif // ENGINE_H
