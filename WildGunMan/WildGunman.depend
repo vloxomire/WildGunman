@@ -7,7 +7,7 @@
 	"Mira.h"
 	<SFML/Graphics.hpp>
 
-1604599961 source:c:\0-cursos\c++\wildgunman\wildgunman\main.cpp
+1604699868 source:c:\0-cursos\c++\wildgunman\wildgunman\main.cpp
 	"./engine.h"
 	"./constants.h"
 	<iostream>
@@ -421,30 +421,30 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
-1604404687 source:c:\0-cursos\c++\wildgunman\wildgunman\laentidad.cpp
+1604529347 source:c:\0-cursos\c++\wildgunman\wildgunman\laentidad.cpp
 	"LaEntidad.h"
 	<iostream>
 
-1604055193 c:\0-cursos\c++\wildgunman\wildgunman\laentidad.h
+1604021525 c:\0-cursos\c++\wildgunman\wildgunman\laentidad.h
 	<SFML/Graphics.hpp>
 
-1604404824 source:c:\0-cursos\c++\wildgunman\wildgunman\mira.cpp
+1604529347 source:c:\0-cursos\c++\wildgunman\wildgunman\mira.cpp
 	"Mira.h"
 	<iostream>
 
-1604404824 c:\0-cursos\c++\wildgunman\wildgunman\mira.h
+1604529347 c:\0-cursos\c++\wildgunman\wildgunman\mira.h
 	"LaEntidad.h"
 
-1604588473 source:c:\0-cursos\c++\wildgunman\wildgunman\src\entity.cpp
+1604699868 source:c:\0-cursos\c++\wildgunman\wildgunman\src\entity.cpp
 	"entity.h"
 
-1604588473 c:\0-cursos\c++\wildgunman\wildgunman\include\entity.h
+1604699868 c:\0-cursos\c++\wildgunman\wildgunman\include\entity.h
 
-1604599928 c:\0-cursos\c++\wildgunman\wildgunman\include\engine.h
+1604699868 c:\0-cursos\c++\wildgunman\wildgunman\include\engine.h
 	<SFML/Graphics.hpp>
 	<string>
 
-1604601391 c:\0-cursos\c++\wildgunman\wildgunman\include\constants.h
+1604699868 c:\0-cursos\c++\wildgunman\wildgunman\include\constants.h
 	<SFML/System.hpp>
 	<string>
 
