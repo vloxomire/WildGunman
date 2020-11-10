@@ -1,13 +1,13 @@
 #ifndef ENGINE_CPP
 #define ENGINE_CPP
-
-
+#include<SFML/Graphics.hpp>
+#include<string>
 class Engine
 {
     public:
-        Engine();
+        Engine(int,int,std::string);
         ~Engine();
-        bool getIsRunning();
+        bool getIsRunning() const;
         void run();
 
     private:

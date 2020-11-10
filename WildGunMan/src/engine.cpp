@@ -1,13 +1,15 @@
 #include "engine.h"
 
-Engine::Engine()
+Engine::Engine(int windowWidth,int windowHeight,std::string windowTitle)
+:m_renderWindow();
 {
-    //ctor
+
+    m_isRunning=true;
 }
 
 Engine::~Engine()
 {
-    //dtor
+
 }
 
 /*bool getIsRunning();

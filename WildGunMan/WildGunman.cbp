@@ -49,12 +49,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="main.cpp" />
 		<Unit filename="src/engine.cpp" />
 		<Unit filename="src/engine.h" />
-		<Unit filename="src/main.cpp">
-			<Option compile="0" />
-			<Option link="0" />
-		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
