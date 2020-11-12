@@ -1,9 +1,10 @@
 #include "engine.h"
 
 Engine::Engine(int windowWidth,int windowHeight,std::string windowTitle)
-:m_renderWindow();
 {
-
+    windowWidth=800;
+    windowHeight=600;
+    windowTitle="Wild GunMan";
     m_isRunning=true;
 }
 
@@ -11,10 +12,28 @@ Engine::~Engine()
 {
 
 }
+bool Engine::getIsRunning()const
+{
+    return m_isRunning;
+}
 
-/*bool getIsRunning();
-        void run();
-        void processEvent();
-        void update(sf::Time);
-        void render();
-        */
+void Engine::run()
+{
+
+}
+
+void Engine::processEvent()
+{
+
+}
+
+void Engine::update(sf::Time deltaTime)
+{
+
+}
+
+void Engine::render()
+{
+
+}
+
