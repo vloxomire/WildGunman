@@ -16,6 +16,7 @@
 					<Add directory="C:/libs/SFML-2.5.1/include" />
 					<Add directory="include" />
 					<Add directory="src" />
+					<Add directory="./" />
 				</Compiler>
 				<Linker>
 					<Add library="C:/libs/SFML-2.5.1/lib/libsfml-audio-d.a" />
@@ -35,6 +36,7 @@
 					<Add directory="C:/libs/SFML-2.5.1/include" />
 					<Add directory="include" />
 					<Add directory="src" />
+					<Add directory="./" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -49,6 +51,8 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="camara.cpp" />
+		<Unit filename="camara.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/engine.cpp" />
 		<Unit filename="src/engine.h" />

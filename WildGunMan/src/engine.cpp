@@ -8,7 +8,7 @@ Engine::Engine(int windowWidth,int windowHeight,std::string windowTitle)
 
 Engine::~Engine()
 {
-
+    delete &m_renderWindow;
 }
 bool Engine::getIsRunning()const
 {
