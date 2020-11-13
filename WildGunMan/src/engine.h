@@ -12,8 +12,8 @@ class Engine
 
     private:
         bool m_isRunning;
-        sf::RenderWindow m_renderWindow;
-        void processEvent();
+        sf::RenderWindow& m_renderWindow;
+        void processEvents();
         void update(sf::Time);
         void render();
 };

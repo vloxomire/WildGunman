@@ -7,7 +7,7 @@
 	"Mira.h"
 	<SFML/Graphics.hpp>
 
-1604967130 source:c:\0-cursos\c++\wildgunman\wildgunman\main.cpp
+1605225598 source:c:\0-cursos\c++\wildgunman\wildgunman\main.cpp
 	"./Engine.h"
 
 1525812018 c:\libs\sfml-2.5.1\include\sfml\graphics.hpp
@@ -446,10 +446,11 @@
 	<SFML/System.hpp>
 	<string>
 
-1604968008 source:c:\0-cursos\c++\wildgunman\wildgunman\src\engine.cpp
+1605225690 source:c:\0-cursos\c++\wildgunman\wildgunman\src\engine.cpp
 	"engine.h"
+	<iostream>
 
-1604968223 c:\0-cursos\c++\wildgunman\wildgunman\src\engine.h
+1605224745 c:\0-cursos\c++\wildgunman\wildgunman\src\engine.h
 	<SFML/Graphics.hpp>
 	<string>
 
