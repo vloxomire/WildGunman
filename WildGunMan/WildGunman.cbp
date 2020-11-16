@@ -53,7 +53,9 @@
 		</Compiler>
 		<Unit filename="camara.cpp" />
 		<Unit filename="camara.h" />
+		<Unit filename="include/camara.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/camara.cpp" />
 		<Unit filename="src/engine.cpp" />
 		<Unit filename="src/engine.h" />
 		<Extensions>
