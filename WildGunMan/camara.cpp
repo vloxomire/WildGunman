@@ -1,11 +1,9 @@
 #include "camara.h"
 
-Camara::Camara()
-{
-    //ctor
-}
+Camara::Camara(int widthView, int heightView);
+:Camera(widthView,heightView)
+{}
 
 Camara::~Camara()
-{
-    //dtor
-}
+{}
+
